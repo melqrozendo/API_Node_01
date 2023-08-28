@@ -1,0 +1,25 @@
+body {
+    background-color: #a30909;
+    margin: 0;
+}
+
+#container-1 {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-2 {
+    display: grid;
+    margin-top: 5px;
+}
+
+input#nome,#idade {
+    height: 30px;
+}
+
+#btn {
+    display: grid;
+    height: 30px;
+    margin-top: 10px;
+}

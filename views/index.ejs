@@ -1,0 +1,23 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Usuários</title>
+</head>
+<body>
+  <h1>Lista de Usuários</h1>
+  <table>
+    <tr>
+      <td>Nome</td>
+      <td>Idade</td>
+    </tr>
+    <tr>
+      <% pessoas.forEach(pessoas => { %>
+        <td><%= pessoas.nome %></td>
+        <td><%= pessoas.idade %></td>
+      <% }); %>
+    </tr>
+  </br>
+  </table>
+</body>
+</html>
